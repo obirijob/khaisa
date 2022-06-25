@@ -1,0 +1,65 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body .main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+body .main img {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  border: solid black 2px;
+  bottom: 150px;
+  left: 50vw;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-box-shadow: black 5px 5px 0 0;
+          box-shadow: black 5px 5px 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .main .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  padding: 30px;
+  gap: 20px;
+  bottom: 20px;
+  left: 50vw;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: transparent;
+}
+
+body .main .options button {
+  border: solid 2px black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  padding: 20px 50px;
+  -webkit-box-shadow: black 5px 5px 0 0;
+          box-shadow: black 5px 5px 0 0;
+}
+
+body .main .options button:hover {
+  background: black;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
